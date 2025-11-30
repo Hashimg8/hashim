@@ -11,7 +11,6 @@
 }
 body{
   background-color:var(--backcolor);
-  height: 100vh;
   font-family: "Tajawal" sans-serif;
   color: var(--main-color);
  
@@ -20,7 +19,11 @@ body{
 /* ------------------ nav start
                      ----------------------
 */
-header nav{
+header{
+    background-color: #9eb2c7;
+    min-height: 100vh;
+}
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -232,6 +235,14 @@ section{
 
 /* ------------------ media mobel ------------------- */
 @media screen and (max-width:767px){
+    body{
+  background-color:var(--backcolor);
+  height: 100vh;
+  font-family: "Tajawal" sans-serif;
+  color: var(--main-color);
+ 
+
+}
 
     /* header{
     min-height: 100vh;
